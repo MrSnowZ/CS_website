@@ -1,21 +1,52 @@
 <h2>nickWebsite</h2>
 <main>
-  <p>Click here to view more <a href="#">photo's</a>.</p>
+  <p>Click here to view more dogs <a href="#">photo's</a>.</p>
 
-  <a href="#"><img src="https://govalor.com/wp-content/uploads/Higgins_Nate-750x750.jpg.webp" alt="Random photo from my website."></a>
-
-  <p>Things I like:</p>
+  <a href="#"><img src="https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/dog-puppy-on-garden-royalty-free-image-1586966191.jpg?crop=1.00xw:0.669xh;0,0.190xh&resize=640:*" alt="Random photo from my website."></a>
+  
+  <p>Top 3 Dog Breeds:</p>
   <ul>
-    <li>Cars</li>
-    <li>Snowboarding</li>
-    <li>Mr. Higgins</li>
+    <li>Literally anything</li>
+    <li>Big dogs</li>
+    <li>Small dogs</li>
   </ul>
-  <p>Top 3 things I hate:</p>
+  <p>Top 3 Dogs I hate:</p>
   <ol>
-    <li>Alex</li>
-    <li>Alex</li>
-    <li>Alex</li>
+    <li>Any of those crusty white dogs</li>
+    <li>Any of those crusty white dogs</li>
+    <li>Any of those crusty white dogs</li>
   </ol>
 
+  
+  <p>Here's a dropdown list of different dog breeds.</p>
+  <input list="animals" name="animal" id="animal">
+  <datalist id="animals">
+      <option value="Golden Doodle">
+      <option value="Husky">
+      <option value="Cavapoo">
+      <option value="Golden retriever">
+      <option value="Poodle">
+    </datalist>
 
+    
+    <p>Here's a random calculator (to calculate how many dogs you want).</p>
+    <form oninput="result.value=parseInt(a.value)+parseInt(b.value)">
+      <input type="number" id="b" name="b" value="10" /> +
+      <input type="number" id="a" name="a" value="10" /> =
+      <output name="result" for="a b">20</output>
+ </form>
+
+    <label for="course">You prefer dogs 67% more than cats:</label>
+<progress id="course" value="67" max="100"></progress> 67%
+
+  <p style="color:red">I like dogs (in red text)</p>
+  <p style="color:blue">I hate cats (in blue text)</p>
+
+  <p style="font-size:30px">I really hate cats</p>
+<p style="font-size:11px">Follow me on twitter (@MrSnowZ_21)</p>
+
+
+<div contenteditable="true">
+  Type your favorite dog breed in this div!
+</div>
 </main>
